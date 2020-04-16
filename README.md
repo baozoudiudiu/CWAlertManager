@@ -19,7 +19,7 @@
 
 > 效果示意图:[图](https://upload-images.jianshu.io/upload_images/3096223-b9bc059b8237df2b.gif)
 
-![效果示意图](https://upload-images.jianshu.io/upload_images/3096223-b9bc059b8237df2b.gif)
+![效果示意图](https://github.com/baozoudiudiu/CWAlertManager/blob/master/souce/demo.gif)
 
 #### 代码示例:
 

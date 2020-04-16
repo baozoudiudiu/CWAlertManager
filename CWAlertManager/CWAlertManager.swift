@@ -69,8 +69,14 @@ public class CWAlertManager {
                 self.currentAlert = nil
                 self.popCompletionBlock?(alert)
             }
-            guard self.alertStack.isEmpty == false else {return}
-            self.show(self.alertStack.last!, addToQueue: false,completion: nil)
+            if self.waitAlertQueue.isEmpty == false
+            {
+                self.showWait()
+            }
+            else if self.alertStack.isEmpty == false
+            {
+                self.show(self.alertStack.last!, addToQueue: false,completion: nil)
+            }
         }
     }
     
